@@ -1,3 +1,5 @@
+
+import CategoryCard from "@/src/components/CategoryCard";
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
@@ -8,6 +10,7 @@ export default function Home() {
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
           Your one-stop shop for all things campus life. Explore our wide range of products and enjoy a seamless shopping experience.
         </p>
+        <CategoryCard icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyv3rxnzd9oN_GAdZ46xfYXP4A8TsmhhiFcw&s" title='Tegh' subtitle='Laptops,tablets and gadgets'></CategoryCard>
       </main>
     </div>
   );
